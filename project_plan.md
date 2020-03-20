@@ -14,23 +14,26 @@ Evaluate weaknesses in the Eth2 network
 Propose fixes
 * Findings will be used to harden the spec
 
-## Design
+## Design Overview
 
 ![](https://i.imgur.com/VOhqH2f.jpg)
-
 
 ### Command & Control Service
  - send commands to agents
  - collect data from agents
 
 ### Eth2 Node
-  - REST API available for agents to query so they can can answer requests from real nodes on the network
+ - REST API available for agents to query so they can can answer requests from real nodes on the network
 
 ### Network Agent
  - network crawler
- - send network data to c&c service
+ - send network data to command & control service
  - accept remote commands from c&c service
  - libp2p networking component (Mothra)
+
+
+## Costs (TBD)
+- servers and ip addresses
 
 
 
