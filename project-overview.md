@@ -1,4 +1,4 @@
-# Prkl Project Plan
+# ETH2 Network Monitoring: Project Overview
 
 Deploy a swarm of semi-autonomous network agents masquerading as an Eth2 node that communicate with a command & control service. This service will collect, aggregate and analyze information from individual agents to evaluate network health. Additionally the command & control service can coordinate the agents to perform attacks to the network, evaluating the security and resilience of the protocol.
 
